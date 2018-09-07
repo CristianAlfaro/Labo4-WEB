@@ -1,0 +1,138 @@
+:root{
+    box-sizing: border-box;  
+    --main: #f56a6a;  
+    --main2: #7f888f;
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+    margin: 0;
+
+}
+
+.total{
+    margin: 0 4em;
+}
+
+.cabezera{  
+    border-bottom: 0.2em solid var(--main);
+    margin: 1.5em 0;
+    padding: 0.5em 0;
+}
+
+.cabezera ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex: 1;
+}
+
+.cabezera ul li{
+    list-style: none;
+    width: 1.5em;
+}
+
+.cabezera ul li.titulo{
+    list-style: none;
+    width: 100%;
+}
+
+.cabezera ul li p span{
+    color: var(--main2);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0 1em 0;
+    border-bottom: #808080d0 solid 0.01em;
+}
+
+.container div.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    margin: 0 3em 0 0;
+}
+
+h1{
+    margin: 0 0 1em 0;
+}
+
+.fotito{
+    width: 28em;
+    height: 18em;
+    border-radius: 1em;
+}
+
+.main p span{
+    text-transform: uppercase;
+}
+
+.main p {
+    text-align: justify;
+    color: var(--main2);
+    line-height: 1.5em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton{
+
+    background-color: transparent;
+    border: solid 2px var(--main);
+    font-size: 1em;
+    padding: 0.5em 4em;
+    color: var(--main); 
+    border-radius: 0.4em;
+    margin: 1em 0
+}
+
+.boton:hover{
+
+    background-color: var(--main);
+    border: solid 2px var(--main);
+    color: #ffffff; 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.fas{
+    font-size: 2.5em;
+    margin: 0.8em; 
+}
+
+.a, .b, .c, .d{
+    display: flex;
+    flex-direction: row;   
+}
+
+div h2{
+    font-size: 1em;
+    line-height: 2.5em;
+}
+
+.a div p,.b div p,.c div p,.d div p{
+    font-size: 0.9em;
+    color: var(--main2);
+    line-height: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cosito{
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 8em;
+    border-bottom: 0.2em solid var(--main);
+    margin-bottom: 1.5em;
+}
+
+.cosito p{
+    line-height: 2.5em;
+}
